@@ -1,0 +1,106 @@
+---
+title: "Scotland's Heath: The Drug Crisis"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Names of group members
+
+Tom, Lee and Melanie
+
+### Roles & responsibilities of each member
+
+**Tom** worked on life expectancy data clean up, alcohol visualisations and presentation.
+
+**Lee** worked on drug data clean up, visualisations and resolving conflict merges for final version of app.
+
+**Melanie** worked on alcohol data clean up, life expectancy visualisations and report.
+
+**Everyone** worked on data cleaning, visualisations, and presentation.
+
+### Brief description of dashboard topic
+
+Our dashboard contains an overview of the health of the population of Scotland in terms of life expectancy from 2009 to 2019 in each local authority area.  The tabs Drug Deaths and Alcohol Deaths focus on the prevalence of deaths due to each substance in each region and how this varies over time.
+
+Our health topic is focused on the drug crisis in Scotland.  
+
+The dashboard outlines our health topic in terms of showing how low life expectancy levels in areas could indicate deprivation and how that affects the number of drug and alcohol deaths in those areas.
+
+### Stages of the project
+
+* Planning & dashboard wireframe
+* Git branching & version control
+* Choosing datasets
+* Data cleaning
+* Data wrangling
+* Deciding on visualisations
+* Creating visualisations
+* Creating dashboard frame
+* Integrating visualisations
+* Solving merge conflicts
+* Presentation planning.
+* Creating report
+
+
+
+### Which tools were used in the project
+
+* Zoom (daily stand-ups and occasional mob programming)
+* Trello (planning & task allocation)
+* Git/GitHub (collaboration & version control)
+* R Studio and R Shiny (cleaning data and creating dashboard)
+* Slack (communication and collaboration of ideas)
+
+### How did you gather and synthesise requirements for the project?
+
+We synthesised the information given in the brief by taking a number of steps. Firstly, we thoroughly read and digested the contents of the project brief to understand what was being asked of us. Following this, we spent some time researching online and understanding our topic: drug deaths, alcohol deaths and life expectancy in Scotland. Lastly, we had a meeting with the client in order to make sure we understood their requirements to tailor the dashboard towards their needs. 
+
+We prioritised planning, app wireframing and building an MVP app.
+
+### Motivations for using the data you have chosen
+
+* Life Expectancy Dataset
+This dataset contains information on life expectancy of people by gender, and council area in Scotland, arranged by age range.  This data was used to create visualisations that show how life expectancy changes over time from 2009 to 2019 in each area.
+
+* Drug Deaths Dataset
+This dataset was chosen as it shows the number of drug related deaths by local authority area and gender. It was used to create visualisations displaying the amount of deaths by area and by individual drug type.
+
+* Alcohol Deaths Dataset
+This dataset contains the number of alcohol specific deaths by council area in Scotland. This was used to construct visualisations showing the number of alcohol deaths per year in each area and by gender in each year.
+
+* Data Zone Dataset
+This was used to match the data zones in each dataset with their local authority area. 
+
+
+### Data quality and potential bias, including a brief summary of data cleaning and transformations
+
+According to the About tab on the datasets used from statistics.gov,scot the data has been quality assured by a statistician who was independent of the publication of the data. The data was checked by council against the same data produced by the ONS. These datasets have also been given the status of National Statistics as they conform with the Code of Practice for Official Statistics as set out in the Statistics and Registration Service Act 2007.
+
+The datasets may not be biased because they contain death and life expectancy figures for each local authority area of Scotland and so are probably representative of the population of study.
+
+To clean the datasets we standardised the names, assigned NA values to missing or incorrect information, removed unnecessary components from value entries such as commas and selected the relevant variables needed for our visualisations.  This was carried out in R Studio using Tidyverse.
+
+### How is the data on statistics.gov.scot stored and structured
+
+The data on statistics.gov.scot is in the form of Linked Data.
+
+This means the datastore is made up of millions of statements or 'triples'. A 'triple' is a combination of three bits of information that make up a subject - predicate - object arrangement.  Subject and object are two nodes joined together by a predicate edge.   
+
+Benefits of storing the data like this are:
+
+Flexibility: No need to define schema in advance, therefore, altering the data model is easy.
+
+Efficient Querying: It's faster to retrieve information from a triple store, as opposed to pre-processing unstructured data. Triple stores already represent the required information in a way you can extract.
+
+### Ethical and legal considerations of the data
+
+The only legal consideration is to abide by the terms of the Open Government License.  The Open Government Licence states that people are free to copy and publish the data, adapt information and to use the data for commercial and non-commercial use.  
+
+Ethical considerations are that the datasets contain information on real individuals who have died from alcohol specific and drug related issues.  However the data is anonymised so individual cases cannot be identified. 
+
