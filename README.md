@@ -13,11 +13,11 @@ We created a dashboard to highlight the growing drug crisis and the staggering i
 
 <br> 
 
-## Drug Deaths in Scotland
+## Drug-related Deaths in Scotland
 ![Drug Deaths](https://github.com/tomdavie/public_health_dashboard/blob/main/images/drug_deaths_screenshot.png)
 
 <br> 
 
-## Alcohol Deaths in Scotland
+## Alcohol-specific Deaths in Scotland
 ![Alcohol Deaths](https://github.com/tomdavie/public_health_dashboard/blob/main/images/alcohol_deaths_screenshot.png)
 
