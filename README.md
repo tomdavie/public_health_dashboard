@@ -1,7 +1,6 @@
 # Publish Health Dashboard Project
 
-## CodeClan Cohort DE9
-###### Tom Davie, Lee McDonald & Melanie Jayasinghe
+
 
 We created a dashboard to highlight the growing drug crisis and the staggering increase in number of drug deaths in recent years. 
 
@@ -21,3 +20,6 @@ We created a dashboard to highlight the growing drug crisis and the staggering i
 ## Alcohol-specific Deaths in Scotland
 ![Alcohol Deaths](https://github.com/tomdavie/public_health_dashboard/blob/main/images/alcohol_deaths_screenshot.png)
 
+
+
+######Created by as part of CodeClan Professional Data Analysis course by Tom Davie, Lee McDonald & Melanie Jayasinghe
