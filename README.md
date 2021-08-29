@@ -1,6 +1,9 @@
-# Public Health Dashboard Project
+# Publish Health Dashboard Project
 
 ## CodeClan Cohort DE9
-## Tom Davie, Melanie Jayasinghe & Lee McDonald
+###### Tom Davie, Lee McDonald & Melanie Jayasinghe
 
-### Full readme in progress...
+We created a dashboard to highlight the growing drug crisis and the staggering increase in number of drug deaths in recent years. 
+
+![Overview](https://github.com/tomdavie/public_health_dashboard/blob/main/images/scotland_health_overview_screenshot.png)
+
