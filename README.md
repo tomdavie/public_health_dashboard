@@ -22,4 +22,4 @@ We created a dashboard to highlight the growing drug crisis and the staggering i
 
 
 
-###### Created by as part of CodeClan Professional Data Analysis course by Tom Davie, Lee McDonald & Melanie Jayasinghe
+###### Created as part of the Professional Data Analysis course at CodeClan by Tom Davie, Lee McDonald & Melanie Jayasinghe. In this group project we spent approximately 4 days developing this dashboard and supplementary documentation. It concluded in presenting our work to an audience. 
