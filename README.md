@@ -1,4 +1,4 @@
-# Publish Health Dashboard Project
+# Public Health in Scotland - Dashboard Project
 
 ###### Created as part of the Professional Data Analysis course at CodeClan by Tom Davie, Lee McDonald & Melanie Jayasinghe. In this group project we spent approximately 4 days developing this dashboard and supplementary documentation. It concluded in presenting our work to an audience. 
 
